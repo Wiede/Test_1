@@ -21,6 +21,7 @@
 		36ADF99518433FBC00BDE4DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36ADF97718433FBC00BDE4DF /* UIKit.framework */; };
 		36ADF99D18433FBC00BDE4DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36ADF99B18433FBC00BDE4DF /* InfoPlist.strings */; };
 		36ADF99F18433FBC00BDE4DF /* NeuerTestGitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36ADF99E18433FBC00BDE4DF /* NeuerTestGitTests.m */; };
+		36ADF9AA1843403700BDE4DF /* xdbgxdbg.m in Sources */ = {isa = PBXBuildFile; fileRef = 36ADF9A91843403700BDE4DF /* xdbgxdbg.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		36ADF99A18433FBC00BDE4DF /* NeuerTestGitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NeuerTestGitTests-Info.plist"; sourceTree = "<group>"; };
 		36ADF99C18433FBC00BDE4DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		36ADF99E18433FBC00BDE4DF /* NeuerTestGitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NeuerTestGitTests.m; sourceTree = "<group>"; };
+		36ADF9A81843403700BDE4DF /* xdbgxdbg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xdbgxdbg.h; sourceTree = "<group>"; };
+		36ADF9A91843403700BDE4DF /* xdbgxdbg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xdbgxdbg.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				36ADF98518433FBC00BDE4DF /* Main.storyboard */,
 				36ADF98818433FBC00BDE4DF /* ViewController.h */,
 				36ADF98918433FBC00BDE4DF /* ViewController.m */,
+				36ADF9A81843403700BDE4DF /* xdbgxdbg.h */,
+				36ADF9A91843403700BDE4DF /* xdbgxdbg.m */,
 				36ADF98B18433FBC00BDE4DF /* Images.xcassets */,
 				36ADF97A18433FBC00BDE4DF /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 				36ADF98A18433FBC00BDE4DF /* ViewController.m in Sources */,
 				36ADF98418433FBC00BDE4DF /* AppDelegate.m in Sources */,
 				36ADF98018433FBC00BDE4DF /* main.m in Sources */,
+				36ADF9AA1843403700BDE4DF /* xdbgxdbg.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
